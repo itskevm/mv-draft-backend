@@ -1,5 +1,9 @@
 # mv-draft-backend
+
 This backend program was created in [Python 3.7.3](https://www.python.org/downloads/release/python-373/). Full compatibility can be expected with at least Python 3.6 and pip 20 (lower pip versions means you will have to sift through requirements.txt to look for older versions of packages that may not work).
+
+Live API: [http://itskevm.pythonanywhere.com/api/]\
+Admin: [http://itskevm.pythonanywhere.com/admin/]
 
 ## Installation
 1. With python and pip installed, clone the repository and navigate into the directory.
@@ -24,4 +28,6 @@ Note! If needed, virtualenv can be turned off when a terminal is not running a p
 [example on default values for models](https://tutorial.djangogirls.org/en/django_models/)\
 [fix security concern](https://stackoverflow.com/questions/31883505/how-to-i-hide-my-secret-key-using-virtualenv-and-django/31883650#31883650)\
 [how to properly store the env](https://docs.activestate.com/platform/projects/requirements-txt/)\
-[reinstalling the env](https://stackoverflow.com/questions/9586346/virtualenv-and-source-version-control)
+[reinstalling the env](https://stackoverflow.com/questions/9586346/virtualenv-and-source-version-control)\
+[understanding static files on pythonanywhere](https://stackoverflow.com/questions/42970053/how-do-i-get-to-collect-static-files-i-cant-run-this-project-it-raises-the-err#comment73033415_42970283)\
+[deploying backend source code to pythonanywhere](https://www.youtube.com/watch?v=Y4c4ickks2A)
