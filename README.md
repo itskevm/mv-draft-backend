@@ -1,4 +1,6 @@
 # mv-draft-backend
+This backend program was created in [Python 3.7.3](https://www.python.org/downloads/release/python-373/)
+
 ## Installation
 1. With python and pip installed, run the following: `pip install --user virtualenv`
 2. Initialize the virtual environment you just installed (keep out of source control): `virtualenv env`
