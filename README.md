@@ -1,6 +1,14 @@
 # mv-draft-backend
 ## Installation
-- `pip install -r requirements.txt`
+1. With python and pip installed, run the following: `pip install --user virtualenv`
+2. Initialize the virtual environment you just installed (keep out of source control): `virtualenv env`
+3. Source the virtual environment.\
+MacOS and Linux: `source env/bin/activate`\
+Windows: `.\env\Scripts\activate`\
+4. Install the needed packages using pip: `pip install -r requirements.txt`
+5. Run the backend server: `python manage.py runserver`
+6. To stop using virtualenv, run: `deactivate`
+
 
 ## List of resources
 [editing the vscode settings json](https://supunkavinda.blog/vscode-editing-settings-json#workspace)\
