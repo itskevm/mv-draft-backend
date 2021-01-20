@@ -1,0 +1,4 @@
+# created by virtualenv automatically
+/env
+
+/src/djreact/secret_settings.py
